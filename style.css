@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, red , orange,yellow );
+}
+
+.header img {
+color:white ;
+font-family: aharoni;
+font-size: 45px;
+letter-spacing: 10px;
+margin-top: 80px;
+}
+
+.header img {
+    width: 80px;
+margin-left: -15px;
+}
+
+.login_div{
+    background: none;
+    float:none;
+    border-radius : 15px;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+#login_button{
+    width: 80%;
+    border-radius:15px;
+}
+
+.room_name{
+    cursor:pointer;
+    font-size: 20px;
+}
+
+#logout{
+    font-size: 20px;
+    float: right;
+}
+
+#output {
+    padding: 10px;
+    width: 80%;
+    background:linear-gradient(to right top, red , orange,yellow ) ;
+    border-radius: 15px;
+}
+
+.imput_div_room_page {
+    width: 80%;
+}
+
+.input_div label {
+    color: white;
+    font-size: 20px;
+}
+
+.imput_div_message_name {
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    background:linear-gradient(to right top, red , orange,yellow ) ;
+}
